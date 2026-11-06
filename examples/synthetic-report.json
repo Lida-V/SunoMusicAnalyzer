@@ -1,0 +1,28 @@
+{
+  "title": "架空サンプル - 夕暮れの散歩",
+  "analyzed_at": "2026-11-06",
+  "duration_seconds": 180,
+  "tempo_bpm": 110,
+  "meter": "4/4",
+  "key": "C major",
+  "genre": "ポップとエレクトロの組み合わせ",
+  "mood": "穏やかで明るい",
+  "target_genre": "ポップ / エレクトロ",
+  "genre_match": "推定: 軽快な拍とシンセ音色に共通点",
+  "style_prompt": "Bright electronic pop, light synths and steady drums",
+  "lyrics_tags": ["[Intro]", "[Verse]", "[Chorus]"],
+  "genre_components": [
+    {"name":"ポップ", "role":"歌の旋律", "source":"audio-listen"},
+    {"name":"エレクトロ", "role":"シンセの音色", "source":"audio-listen"}
+  ],
+  "vocals":"柔らかな主旋律",
+  "instruments":"シンセ、ベース、ドラム",
+  "rhythm":"安定した4拍子",
+  "development":"静かな導入から楽器が重なり、終盤は落ち着いて終わる。",
+  "highlights":"サビの旋律と軽やかな音色",
+  "mix_observations":"歌声と伴奏のバランスは聴取モデルによる印象。",
+  "summary":"架空の分析例。すべて合成データであり実曲の結果ではない。",
+  "next_style_prompt":"Soft synth pop with a clear vocal and gentle drums",
+  "sections":[{"start":0,"end":30,"label":"A"},{"start":30,"end":90,"label":"B"},{"start":90,"end":150,"label":"A"},{"start":150,"end":180,"label":"C"}],
+  "sources":{"title":"user","style_prompt":"user","lyrics_tags":"user","genre":"audio-listen","genre_match":"audio-listen","target_genre":"user","mood":"audio-listen","vocals":"audio-listen","instruments":"audio-listen","rhythm":"audio-listen","development":"audio-listen","highlights":"audio-listen","mix_observations":"audio-listen","summary":"audio-listen","next_style_prompt":"agent","sections":"audio-analysis","duration_seconds":"audio-analysis","tempo_bpm":"audio-analysis","meter":"audio-analysis","key":"audio-analysis"}
+}

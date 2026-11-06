@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+runtime/
+output/
+projects/
+report*.json
+analysis*.json
+*.local.json
+*.pdf
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.ogg
