@@ -4,6 +4,14 @@ Suno公式MCPの楽曲分析を使い、制作意図と音の特徴、曲の展�
 
 It is a reusable agent skill that turns evidence from Suno's official MCP into an illustrated one-page music analysis PDF. Findings are labeled by source and uncertainty; the renderer does not invent missing data.
 
+## サンプル画像
+
+楽曲の特徴に合わせて、分析シートの配色やデザインが変わります。以下はすべて**架空の楽曲データを使った表示例**です。画像をクリックすると拡大できます。
+
+| バラード | エレクトロ | ロック |
+| --- | --- | --- |
+| [![架空のバラード楽曲の分析シート](docs/images/sample-ballad.png)](docs/images/sample-ballad.png) | [![架空のエレクトロ楽曲の分析シート](docs/images/sample-electronic.png)](docs/images/sample-electronic.png) | [![架空のロック楽曲の分析シート](docs/images/sample-rock.png)](docs/images/sample-rock.png) |
+
 ## できること
 
 - 曲名、取得できた制作スタイル、歌詞欄の構成・演奏タグを整理。歌詞本文はPDFに掲載しません。
